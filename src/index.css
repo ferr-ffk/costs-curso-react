@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	border-style: border-box;
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+	background-color: #efefef;
+	height: 100%;
+}
+
+#root {
+	position: relative;
+}
+
+section {
+	padding: 4.5rem 2rem 11rem;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+}
+
+.btn {
+	background-color: #222;
+	color: white;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	color: #ffbb33;
+}

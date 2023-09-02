@@ -1,0 +1,46 @@
+.footer {
+	background-color: #222;
+	color: white;
+	position: sticky;
+	width: 100%;
+	top: 100%;
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	gap: 2rem;
+	margin: 0.3rem 0;
+}
+
+.list svg {
+	font-size: 1.5em;
+	cursor: pointer;
+    transition: 0.1s;
+}
+
+.list svg:hover {
+	color: #ffbb33;
+}
+
+.insta {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+	transition: ease-in all 0.1s;
+}
+
+.insta:hover {
+	color: #ffbb33;
+}
+
+.copyright span {
+    font-weight: bold;
+}

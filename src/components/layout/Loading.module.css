@@ -1,0 +1,12 @@
+.loader_container {
+	min-height: 30rem;
+	min-width: 30rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader {
+	width: 30%;
+	height: 20%;
+}

@@ -1,0 +1,29 @@
+.start,
+.column {
+	min-height: 70vh;
+}
+
+.container {
+	width: 100%;
+	height: fit-content;
+	position: relative;
+}
+
+.start {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: fit-content;
+	gap: 0.3em;
+	min-height: 15rem;
+	max-width: 100%;
+}
+
+.start * {
+	min-width: 10rem;
+}
+
+.column {
+	flex-direction: column;
+	justify-content: flex-start;
+}

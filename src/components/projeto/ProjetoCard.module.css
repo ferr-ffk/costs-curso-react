@@ -1,0 +1,78 @@
+.projeto_card {
+	flex-shrink: 0;
+	min-width: 12em;
+	max-width: 20rem;
+	padding: 1em;
+	border: 1px solid #7a7a7a;
+	border-radius: 5px;
+	margin: 0.5%;
+}
+
+.projeto_card h4 {
+	background-color: #222;
+	min-height: 3rem;
+	color: #ffbb33;
+	padding: 0.4em;
+	margin-bottom: 1.3em;
+	font-size: 1.3em;
+	display: flex;
+	align-items: center;
+}
+
+.projeto_card p {
+	color: #7a7a7a;
+	margin-bottom: 1em;
+}
+
+.projeto_card p span {
+	font-weight: bold;
+}
+
+.categoria_texto {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.categoria_texto span {
+	display: block;
+	min-width: 1rem;
+	min-height: 1rem;
+	border-radius: 50%;
+	margin: 0.3rem;
+	background-color: #ccc;
+}
+
+.projeto_card_acoes {
+	display: grid;
+	padding: .25rem 4rem;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+.projeto_card_acoes a,
+.projeto_card_acoes button {
+	text-decoration: none;
+	border: none;
+	background-color: #fff;
+	font-size: 0.9em;
+	padding: .6em 1em;
+	border: 1px solid #222;
+	transition: .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+.projeto_card svg {
+	min-width: 5px;
+	margin: .4rem;
+}
+
+.projeto_card_acoes a:hover,
+.projeto_card_acoes button:hover {
+	background-color: #222;
+	color: #ffbb33;
+}

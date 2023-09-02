@@ -1,0 +1,61 @@
+{
+  "projetos": [
+    {
+      "name": "Meu projeto bonito e gostoso",
+      "id": 1,
+      "orcamento": "1000000",
+      "category": {
+        "id": "2",
+        "name": "Engenharia"
+      },
+      "custo": "-156",
+      "servicos": [
+        {
+          "nome": "Aumentar produção",
+          "custo": "90",
+          "descricao": "nossa que tesão",
+          "id": "d6ec3d0c-c34a-471c-b7ab-734875f57279"
+        },
+        {
+          "nome": "que vontade de dar o cu",
+          "custo": "0",
+          "descricao": "juro eu to com um tesão agr de urso",
+          "id": "d0d7aa2c-1c1c-44eb-9314-e7236d9404da"
+        }
+      ]
+    },
+    {
+      "name": "Meu projeto 1",
+      "id": 2,
+      "orcamento": "900",
+      "category": {
+        "id": "3",
+        "name": "Informática"
+      },
+      "custo": "0",
+      "servicos": []
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Engenharia"
+    },
+    {
+      "id": 3,
+      "name": "Informática"
+    },
+    {
+      "id": 4,
+      "name": "Design"
+    },
+    {
+      "id": 5,
+      "name": "Planejamento"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+:root {
+    --clr: #155724;
+    --bg-clr: #d4edda;
+    --brdr-clr: #c3e6cb;
+}
+
+.mensagem {
+	width: 100%;
+	padding: 1em;
+	border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 2em;
+	border-radius: 0.25rem;
+}
+
+.mensagem p {
+    margin: 0 auto;
+}
+
+.erro {
+    --clr: #721C24;
+    --bg-clr: #f8d7da;
+    --brdr-clr: #f5c6cb;
+
+    color: var(--clr);
+    background-color: var(--bg-clr);
+    border-color: var(--brdr-clr);
+}
+
+.sucesso {
+    color: var(--clr);
+    background-color: var(--bg-clr);
+    border-color: var(--brdr-clr);
+}
